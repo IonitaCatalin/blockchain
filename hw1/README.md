@@ -11,15 +11,15 @@ Este posibila interograrea acestei stari (ex., cu un raspuns de tip string menti
 
 Inainte de atingerea sumei tinta (starea "nefinantat"), contractul CrowdFunding trebuie sa ofere posibilitatea de:
 
-Depunere a unei sume de catre un contribuitor. La fiecare depunere contractul va verifica daca s-a atins suma tinta.
-Retragere a oricarei sume, inclusiv partiala, depuse de un contribuitor.
+- Depunere a unei sume de catre un contribuitor. La fiecare depunere contractul va verifica daca s-a atins suma tinta.
+- Retragere a oricarei sume, inclusiv partiala, depuse de un contribuitor.
 
 Dupa atingerea sumei tinta (starea "prefinantat"):
 
-Nu se mai pot retrage sau depune sume.
-Proprietarul contractului CrowdFunding poate comunica contractului SponsorFunding finalizarea colectarii sumei, la care contractul SponsorFunding va verifica balanta contractului CrowdFunding si va vira catre acesta sponsorizarea oferita. In cazul in care contractul SponsorFunding nu dispune de o balanta suficienta pentru sponsorizare nu va vira nimic.
+- Nu se mai pot retrage sau depune sume.
+- Proprietarul contractului CrowdFunding poate comunica contractului SponsorFunding finalizarea colectarii sumei, la care contractul SponsorFunding va verifica balanta contractului CrowdFunding si va vira catre acesta sponsorizarea oferita. In cazul in care contractul SponsorFunding nu dispune de o balanta suficienta pentru sponsorizare nu va vira nimic.
 
 Dupa eventuala sponsorizare (starea "finantat"):
 
-Proprietarul contractului CrowdFunding poate vira suma totala adunata catre contractul DistributeFunding.
-Doar dupa acest virament, contractul DistributeFunding va permite fiecarui actionar sa isi retraga, o singura data, venitul calculat conform cu ponderea proprie.
+- Proprietarul contractului CrowdFunding poate vira suma totala adunata catre contractul DistributeFunding.
+- Doar dupa acest virament, contractul DistributeFunding va permite fiecarui actionar sa isi retraga, o singura data, venitul calculat conform cu ponderea proprie.
