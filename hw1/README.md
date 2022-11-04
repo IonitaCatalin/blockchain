@@ -1,3 +1,5 @@
+# HW1
+
 Se doreste o implementare care sa permita adunarea de fonduri de la mai multi contribuitori si distribuirea acestora unor beneficiari.
 
 Implementati trei contracte: CrowdFunding, SponsorFunding si DistributeFunding, care sa functioneze in modul descris mai jos:
