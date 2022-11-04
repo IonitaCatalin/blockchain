@@ -4,5 +4,5 @@ This repository's sole purpose is to host the practical work done as part of the
 
 Each laboratory has its associated folder with an additional file README.md used to describe the steps involved in implementing the solution.
 
-- **[Homework 1](https://github.com/IonitaCatalin/blockchain/tree/master/hw1)** ✔️
+- **[Homework 1](https://github.com/IonitaCatalin/blockchain/tree/main/hw1)** ✔️
 
